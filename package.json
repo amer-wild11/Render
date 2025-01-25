@@ -2,14 +2,14 @@
   "name": "nuxt-app",
   "private": true,
   "type": "module",
- "scripts": {
-  "build": "nuxt build",
-  "dev": "nuxt dev",
-  "generate": "nuxt generate",
-  "preview": "nuxt preview",
-  "start": "node .output/server/index.mjs",
-  "postinstall": "nuxt prepare && prisma generate"
-},
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "start": "node .output/server/index.mjs",
+    "postinstall": "prisma generate"
+  },
   "dependencies": {
     "@prisma/client": "^6.1.0",
     "@prisma/nuxt": "^0.3.0",
