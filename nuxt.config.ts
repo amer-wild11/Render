@@ -4,4 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@prisma/nuxt"],
   ssr: true,
+  devServer: {
+    host: "0.0.0.0", // المضيف
+    port: 3000, // المنفذ
+  },
 });
